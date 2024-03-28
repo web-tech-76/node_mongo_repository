@@ -1,0 +1,12 @@
+type Query{
+    books: [Books]!
+}
+
+type Books{
+    _id:ID,
+    title: String,
+    author: String,
+    publisher: String,
+    published_date: String,
+    price: Int
+}
